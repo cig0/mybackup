@@ -1,3 +1,14 @@
 Script de backups para MySQL
 
-Crea backups comprimidos para cada una de las bases de datos en el motor
+Crea backups comprimidos para cada una de las bases de datos en
+el motor.
+
+Generar un archivo de configuracion con las siguientes variables:
+
+HOST="ip o nombre"
+USER="usuario"
+PASSWD="contrasena"
+BACKUPDIR="/var/backups/db"
+
+Y luego especificar la ubicacion de dicho archivo en la variable 
+CONFIGFILE dentro de mybackup.sh
