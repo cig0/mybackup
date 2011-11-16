@@ -9,7 +9,7 @@
 # PASSWD="contrasena"
 # BACKUPDIR="/var/backups/db"
 
-CONFIGFILE="/home/mool/dev/mybackup/mybackup.conf"
+CONFIGFILE="/etc/mybackup.conf"
 
 MYSQL=$(which mysql)
 MYSQLDUMP=$(which mysqldump)
